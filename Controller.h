@@ -17,10 +17,10 @@ class Controller
     int Sensor2; 
     int sensorValue2;
     Controller();
-    void moveForward(void);
-    void moveBackward(void);
-    void moveLeft(void);
-    void moveRight(void);
+    void moveForward(int,int);
+    void moveBackward(int,int);
+    void moveLeft(int,int);
+    void moveRight(int,int);
     float ReadSensorVal1(void);
     float ReadSensorVal2(void);
 

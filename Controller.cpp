@@ -34,37 +34,47 @@ Controller::Controller(void)
 // Public Methods //////////////////////////////////////////////////////////////
 // Functions available in Wiring sketches, this library, and other libraries
 
-void Controller::moveForward(void)
+/*
+  The following C++ methods are made for abstracting the code for Robot Navigation and reading from sensor data.
+  
+  Every method takes two input arguments (although it is optional)
+   speedMotor is simply an option that you can use to change the speed of the motor. 
+   A higher value means more speed/faster and less means slower.
+
+   Default values were assigned to the methods for convenience.
+*/
+
+void Controller::moveForward(int speedmotorA=200,int speedmotorB=200)
 {
   motor3.run(FORWARD);      // turn it on going forward
   motor4.run(FORWARD);      // turn it on going forward
-  motor3.setSpeed(200);
-  motor4.setSpeed(200);
+  motor3.setSpeed(speedmotorA);
+  motor4.setSpeed(speedmotorB);
 }
 
-void Controller::moveBackward(void)
+void Controller::moveBackward(int speedmotorA=200,int speedmotorB=200)
 {
   motor3.run(BACKWARD);     //turn it on going backward
   motor4.run(BACKWARD);
-  motor3.setSpeed(255); 
-  motor4.setSpeed(255);
+  motor3.setSpeed(speedmotorA); 
+  motor4.setSpeed(speedmotorB);
 }
 
-void Controller::moveLeft(void)
+void Controller::moveLeft(int speedmotorA=200,int speedmotorB=150)
 {
   motor3.run(FORWARD);
   motor4.run(BACKWARD);
-  motor3.setSpeed(200);
-  motor4.setSpeed(150);
+  motor3.setSpeed(speedmotorA);
+  motor4.setSpeed(speedmotorB);
 
 }
 
-void Controller::moveRight(void)
+void Controller::moveRight(int speedmotorA=150,int speedmotorB=200)
 {
   motor3.run(BACKWARD);
   motor4.run(FORWARD);
-  motor3.setSpeed(150);
-  motor4.setSpeed(255);
+  motor3.setSpeed(speedmotorA);
+  motor4.setSpeed(speedmotorB);
 }
 
 float Controller::ReadSensorVal1(void){
