@@ -1,6 +1,6 @@
 /*
-  Test.h - Test library for Wiring - implementation
-  Copyright (c) 2006 John Doe.  All right reserved.
+  Controller.h - Controller library for Robotics Outreach
+  Copyright (c) 2019 Royce Chua.  All right reserved.
 */
 
 
