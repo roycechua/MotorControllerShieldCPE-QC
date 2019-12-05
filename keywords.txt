@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Controller	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+moveForward  KEYWORD2
+moveBackward KEYWORD2
+moveLeft     KEYWORD2
+moveRight    KEYWORD2
+ReadSensorVal1 KEYWORD2
+ReadSensorVal2 KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
