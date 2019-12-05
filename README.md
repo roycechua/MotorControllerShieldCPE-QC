@@ -1,5 +1,7 @@
 ## MotorControllerShieldCPE-QC
-This is a library for the L293D motor controller shield based on AFMotor.h library customized for the Robotics Workshop of the Computer Engineering Department of TIP-QC.
+This is a library for the L293D motor controller shield based on AFMotor.h library customized for the Robotics Workshop of the Computer Engineering Department of TIP-QC. 
+
+This was made for a Robot that has 2 Brushed DC Motors, two IR Sensors, and an Ultrasonic Sensor(library will support this in a future release).
 
 You can read here or go to the web page [roycechua.me/MotorControllerShieldCPE-QC/](http://roycechua.me/MotorControllerShieldCPE-QC/) 
 
@@ -28,6 +30,7 @@ The two libraries should be present in the Arduino library folder like the one b
 Example of the Robot Navigation codes
 
 ![](https://i.ibb.co/jGzY0PF/Robot-Navigation-Code-Example.png)
+
 ![](https://i.ibb.co/kGdGtRJ/Robot-Navigation-Code-Example-2.png)
 
 Remember to create an instance of Controller.
@@ -42,8 +45,12 @@ bot.moveBackward(speedmotorA, speedMotorB) // from 0-255
 bot.moveLeft(speedmotorA, speedMotorB) // from 0-255
 bot.moveRight(speedmotorA, speedMotorB) // from 0-255
 ```
-
+To read data from the IR sensor
+``` C
+  bot.ReadSensorVal1() 
+  bot.ReadSensorVal2()
+```
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with the library? Just send an email to **royce236@gmail.com** and we’ll help you sort it out.
