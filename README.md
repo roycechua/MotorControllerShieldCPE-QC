@@ -21,6 +21,10 @@ The two libraries should be present in the Arduino library folder like the one b
 
 ![Example of installed libraries](https://i.ibb.co/X4w1SsT/Example-of-installed-libraries-in-Arduino.png)
 
+4. MotorControllerShieldCPE-QC library's example should now be present in the Arduino IDE through File -> Examples -> MotorControllerShieldCPE-QC. You should be able to see 3 examples.
+
+![Example of MotorControllerShieldCPE-QC library](https://i.ibb.co/8jxxn6F/Arduino-Example-of-Motor-Controller-Shield-CPE-QC-library-in-Examples.png)
+
 ```markdown
 Syntax highlighted code block
 
