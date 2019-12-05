@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## MotorControllerShieldCPE-QC
+This is a library for the L293D motor controller shield based on AFMotor.h library customized for the Robotics Workshop of the Computer Engineering Department of TIP-QC.
 
-You can use the [editor on GitHub](https://github.com/roycechua23/MotorControllerShieldCPE-QC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can read here or go to the web page [roycechua.me/MotorControllerShieldCPE-QC/](http://roycechua.me/MotorControllerShieldCPE-QC/) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instructions
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To use this library you must also download AFMotor.h library from Adafruit
 
 ```markdown
 Syntax highlighted code block
