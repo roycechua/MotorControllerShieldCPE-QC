@@ -25,29 +25,24 @@ The two libraries should be present in the Arduino library folder like the one b
 
 ![Example of MotorControllerShieldCPE-QC library](https://i.ibb.co/8jxxn6F/Arduino-Example-of-Motor-Controller-Shield-CPE-QC-library-in-Examples.png)
 
-```markdown
-Syntax highlighted code block
+Example of the Robot Navigation codes
 
-# Header 1
-## Header 2
-### Header 3
+![](https://i.ibb.co/jGzY0PF/Robot-Navigation-Code-Example.png)
+![](https://i.ibb.co/kGdGtRJ/Robot-Navigation-Code-Example-2.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Going to Arduino Libaries](https://ibb.co/8g3R2Q7)
+Remember to create an instance of Controller.
+```C++
+Controller bot = Controller();
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For robot navigation, these are the functions available
+```C
+bot.moveForward(speedmotorA, speedMotorB) // from 0-255
+bot.moveBackward(speedmotorA, speedMotorB) // from 0-255
+bot.moveLeft(speedmotorA, speedMotorB) // from 0-255
+bot.moveRight(speedmotorA, speedMotorB) // from 0-255
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roycechua23/MotorControllerShieldCPE-QC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
