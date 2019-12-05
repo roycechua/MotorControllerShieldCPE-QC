@@ -44,7 +44,7 @@ Controller::Controller(void)
    Default values were assigned to the methods for convenience.
 */
 
-void Controller::moveForward(int speedmotorA=200,int speedmotorB=200)
+void Controller::moveForward(int speedmotorA=150,int speedmotorB=150)
 {
   motor3.run(FORWARD);      // turn it on going forward
   motor4.run(FORWARD);      // turn it on going forward
@@ -52,7 +52,7 @@ void Controller::moveForward(int speedmotorA=200,int speedmotorB=200)
   motor4.setSpeed(speedmotorB);
 }
 
-void Controller::moveBackward(int speedmotorA=200,int speedmotorB=200)
+void Controller::moveBackward(int speedmotorA=150,int speedmotorB=150)
 {
   motor3.run(BACKWARD);     //turn it on going backward
   motor4.run(BACKWARD);
