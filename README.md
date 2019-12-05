@@ -5,13 +5,21 @@ You can read here or go to the web page [roycechua.me/MotorControllerShieldCPE-Q
 
 ### Instructions
 
-To use this library you must also download AFMotor.h library from Adafruit wbich you can conveniently download on the Arduino IDE by clicking **Sketch** then **Include Libaries** 
+To use this library you must 
+
+1. Download AFMotor.h library from Adafruit wbich you can conveniently download on the Arduino IDE by clicking **Sketch** then **Include Libaries** 
 
 ![Going to Arduino Libaries](https://i.ibb.co/nM2VfKL/Finding-AFMotor-h.png)
 
-Then download the **Adafruit Motor Shield V1**
+2. Then download the **Adafruit Motor Shield V1**
 
 ![Downloading Adafruit Motor Shield V1](https://i.ibb.co/jJgRYrJ/Downloading-Adafruit-Motor-Shield-library-V1.png)
+
+3. Clone this repository or Download as ZIP, if you cloned this repository make sure to move it to the Arduino library location (ex. _C:\Users\<Username>\Documents\Arduino\libraries_ for Windows) OR if you downloaded this repository as a ZIP file, extract it then move it to the Arduino library location.
+
+The two libraries should be present in the Arduino library folder like the one below.
+
+![Example of installed libraries](https://i.ibb.co/X4w1SsT/Example-of-installed-libraries-in-Arduino.png)
 
 ```markdown
 Syntax highlighted code block
