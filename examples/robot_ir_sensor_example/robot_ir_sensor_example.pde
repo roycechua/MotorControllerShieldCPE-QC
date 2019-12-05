@@ -24,19 +24,19 @@ void loop()
   // these codes loop forever
   // To read data from the IR Sensor (either read black or white)
   // You can use these two functions
-  // ReadSensorVal1() 
-  // ReadSensorVal2()
+  // bot.ReadSensorVal1() 
+  // bot.ReadSensorVal2()
 
-  if(ReadSensorVal1()  >= 500 && ReadSensorVal2() <= 100){
+  if(bot.ReadSensorVal1()  >= 500 && bot.ReadSensorVal2() <= 100){
     bot.moveRight(150,175);
   }
-  else if(ReadSensorVal1()  <= 100 && ReadSensorVal2() >= 500){
+  else if(bot.ReadSensorVal1()  <= 100 && bot.ReadSensorVal2() >= 500){
     bot.moveLeft(170,150);
   }
-  else if (ReadSensorVal1()  <= 100 && ReadSensorVal2() <= 100){
+  else if (bot.ReadSensorVal1()  <= 100 && bot.ReadSensorVal2() <= 100){
     bot.moveForward(100,100);
   }
-  else if (ReadSensorVal1()  >= 500 && ReadSensorVal2() >= 500){
+  else if (bot.ReadSensorVal1()  >= 500 && bot.ReadSensorVal2() >= 500){
     bot.moveForward(100,100);
   }
 }
