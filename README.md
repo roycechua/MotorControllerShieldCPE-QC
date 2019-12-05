@@ -7,7 +7,7 @@ You can read here or go to the web page [roycechua.me/MotorControllerShieldCPE-Q
 
 To use this library you must also download AFMotor.h library from Adafruit wbich you can conveniently download on the Arduino IDE by clicking **Sketch** then **Include Libaries** 
 
-![Going to Arduino Libaries](https://ibb.co/8g3R2Q7)
+![Going to Arduino Libaries](https://i.ibb.co/nM2VfKL/Finding-AFMotor-h.png)
 
 
 ```markdown
