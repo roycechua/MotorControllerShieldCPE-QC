@@ -9,6 +9,9 @@ To use this library you must also download AFMotor.h library from Adafruit wbich
 
 ![Going to Arduino Libaries](https://i.ibb.co/nM2VfKL/Finding-AFMotor-h.png)
 
+Then download the **Adafruit Motor Shield V1**
+
+![Downloading Adafruit Motor Shield V1](https://i.ibb.co/jJgRYrJ/Downloading-Adafruit-Motor-Shield-library-V1.png)
 
 ```markdown
 Syntax highlighted code block
