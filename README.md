@@ -54,3 +54,6 @@ To read data from the IR sensor
 ### Support or Contact
 
 Having trouble with the library? Just send an email to **royce236@gmail.com** and we’ll help you sort it out.
+
+### License
+This repository is under MIT License.
