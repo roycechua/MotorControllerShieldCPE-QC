@@ -3,7 +3,6 @@ This is a library for the L293D motor controller shield based on AFMotor.h libra
 
 This was made for a Robot that has 2 Brushed DC Motors, two IR Sensors, and an Ultrasonic Sensor(library will support this in a future release).
 
-You can read here or go to the web page [roycechua.me/MotorControllerShieldCPE-QC/](http://roycechua.me/MotorControllerShieldCPE-QC/) 
 
 ### Instructions
 
